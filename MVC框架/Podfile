@@ -1,0 +1,10 @@
+# platform :ios, '8.0'
+target 'MVC框架' do
+pod 'MJRefresh'
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'IQKeyboardManager'
+pod 'AFNetworking'
+pod 'SDWebImage'
+
+end

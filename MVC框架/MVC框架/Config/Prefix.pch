@@ -1,0 +1,39 @@
+//
+//  BJNursePrefix.pch
+//  BJNurse
+//
+//  Created by boocca on 16/12/2.
+//  Copyright © 2016年 李爽. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+/*
+ ** 第三方框架
+ */
+#import "Common.h"
+#import "Size.h"
+#import "Color.h"
+
+/*
+ ** 自定义的分类和扩展
+ */
+#import "NSData+Extension.h"
+#import "BYNavigationController.h"
+#import "NSString+Extension.h"
+#import "UIWindow+Extension.h"
+#import "UIColor+Extension.h"
+#import "NSDictionary+Extension.h"
+#import "UIViewController+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+/*
+ ** 第三方库
+ */
+
+#import "CoreStatus.h"
+#import "SDImageCache.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+
+#endif /* Prefix_pch */
