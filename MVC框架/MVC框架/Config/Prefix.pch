@@ -27,6 +27,7 @@
 #import "NSDictionary+Extension.h"
 #import "UIViewController+Extension.h"
 #import "UIBarButtonItem+Extension.h"
+#import "NSObject+Extension.h"
 /*
  ** 第三方库
  */

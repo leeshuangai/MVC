@@ -20,7 +20,6 @@
 		C10D098E1EFD06E7000377FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D09851EFD0621000377FE /* main.m */; };
 		C10D09951EFD0779000377FE /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D09921EFD0779000377FE /* BYNavigationController.m */; };
 		C10D09961EFD0779000377FE /* BYTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D09941EFD0779000377FE /* BYTabbarController.m */; };
-		C10D09AA1EFD08F2000377FE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D09A91EFD08F2000377FE /* BaseViewController.m */; };
 		C10D0AC61EFD15C9000377FE /* NSData+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D0A541EFD15C9000377FE /* NSData+Extension.m */; };
 		C10D0AC71EFD15C9000377FE /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D0A561EFD15C9000377FE /* NSDate+Extension.m */; };
 		C10D0AC81EFD15C9000377FE /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D0A581EFD15C9000377FE /* NSDictionary+Extension.m */; };
@@ -66,6 +65,11 @@
 		C10D0B021EFD166F000377FE /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D0AF31EFD166F000377FE /* TaskViewController.m */; };
 		C10D0B031EFD166F000377FE /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D0AF91EFD166F000377FE /* MyViewController.m */; };
 		C10D0B041EFD166F000377FE /* WalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C10D0AFF1EFD166F000377FE /* WalletViewController.m */; };
+		C1583D4A1F00AAFA0028F298 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C1583D441F00AAFA0028F298 /* BaseModel.m */; };
+		C1583D4B1F00AAFA0028F298 /* BYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1583D471F00AAFA0028F298 /* BYUser.m */; };
+		C1583D4C1F00AAFA0028F298 /* BYUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1583D491F00AAFA0028F298 /* BYUserManager.m */; };
+		C1583D501F00AB420028F298 /* MyPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1583D4F1F00AB420028F298 /* MyPickView.m */; };
+		C1583D541F00ABD60028F298 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1583D531F00ABD60028F298 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,8 +112,6 @@
 		C10D09921EFD0779000377FE /* BYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYNavigationController.m; sourceTree = "<group>"; };
 		C10D09931EFD0779000377FE /* BYTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTabbarController.h; sourceTree = "<group>"; };
 		C10D09941EFD0779000377FE /* BYTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTabbarController.m; sourceTree = "<group>"; };
-		C10D09A81EFD08F2000377FE /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		C10D09A91EFD08F2000377FE /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C10D09C01EFD0D05000377FE /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		C10D09C11EFD10C4000377FE /* Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Size.h; sourceTree = "<group>"; };
 		C10D0A4D1EFD123B000377FE /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
@@ -207,6 +209,16 @@
 		C10D0AFE1EFD166F000377FE /* WalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalletViewController.h; sourceTree = "<group>"; };
 		C10D0AFF1EFD166F000377FE /* WalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalletViewController.m; sourceTree = "<group>"; };
 		C10D0B051EFD16CF000377FE /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		C1583D431F00AAFA0028F298 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		C1583D441F00AAFA0028F298 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		C1583D461F00AAFA0028F298 /* BYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYUser.h; sourceTree = "<group>"; };
+		C1583D471F00AAFA0028F298 /* BYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYUser.m; sourceTree = "<group>"; };
+		C1583D481F00AAFA0028F298 /* BYUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYUserManager.h; sourceTree = "<group>"; };
+		C1583D491F00AAFA0028F298 /* BYUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYUserManager.m; sourceTree = "<group>"; };
+		C1583D4E1F00AB420028F298 /* MyPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPickView.h; sourceTree = "<group>"; };
+		C1583D4F1F00AB420028F298 /* MyPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPickView.m; sourceTree = "<group>"; };
+		C1583D521F00ABD60028F298 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C1583D531F00ABD60028F298 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		C290C64323B66D7A00DDB662 /* Pods-MVC框架.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC框架.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVC框架/Pods-MVC框架.debug.xcconfig"; sourceTree = "<group>"; };
 		CFAFA463DFF77A4CF70A73A0 /* Pods-MVC框架.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVC框架.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVC框架/Pods-MVC框架.release.xcconfig"; sourceTree = "<group>"; };
 		E4B3D3BB2DFB22D72AFB3CD6 /* libPods-MVC框架.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MVC框架.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -284,6 +296,7 @@
 				C10D094F1EFD05FE000377FE /* BaseNetwork */,
 				C10D0A511EFD15C9000377FE /* Class */,
 				C10D097F1EFD0613000377FE /* Features */,
+				C1583D411F00AAFA0028F298 /* PublicModel */,
 				C10D09801EFD0617000377FE /* Config */,
 				C10D09821EFD0621000377FE /* Other */,
 			);
@@ -340,7 +353,6 @@
 			children = (
 				C10D09901EFD076E000377FE /* TabAndNav */,
 				C10D098F1EFD076B000377FE /* LoginAndRegister */,
-				C10D09A41EFD08E4000377FE /* Base */,
 				C10D0AF01EFD166F000377FE /* Home */,
 				C10D0AFC1EFD166F000377FE /* Two */,
 				C10D0AF61EFD166F000377FE /* My */,
@@ -389,15 +401,6 @@
 				C10D09941EFD0779000377FE /* BYTabbarController.m */,
 			);
 			path = TabAndNav;
-			sourceTree = "<group>";
-		};
-		C10D09A41EFD08E4000377FE /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				C10D09A81EFD08F2000377FE /* BaseViewController.h */,
-				C10D09A91EFD08F2000377FE /* BaseViewController.m */,
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		C10D0A511EFD15C9000377FE /* Class */ = {
@@ -449,6 +452,7 @@
 		C10D0A6F1EFD15C9000377FE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C1583D511F00ABD60028F298 /* BaseController */,
 				C10D0A711EFD15C9000377FE /* BJAlert */,
 				C10D0A741EFD15C9000377FE /* BJButton */,
 				C10D0A771EFD15C9000377FE /* BJGCD */,
@@ -458,6 +462,7 @@
 				C10D0A931EFD15C9000377FE /* BJWJTextView */,
 				C10D0A961EFD15C9000377FE /* BYLoginBtn */,
 				C10D0A9D1EFD15C9000377FE /* BYTextField */,
+				C1583D4D1F00AB420028F298 /* BJPick */,
 				C10D0AA01EFD15C9000377FE /* CountDownButton */,
 				C10D0AA31EFD15C9000377FE /* GradientView */,
 				C10D0AA61EFD15C9000377FE /* ImagesSelector */,
@@ -793,6 +798,53 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C1583D411F00AAFA0028F298 /* PublicModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1583D421F00AAFA0028F298 /* BaseModel */,
+				C1583D451F00AAFA0028F298 /* User */,
+			);
+			path = PublicModel;
+			sourceTree = "<group>";
+		};
+		C1583D421F00AAFA0028F298 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				C1583D431F00AAFA0028F298 /* BaseModel.h */,
+				C1583D441F00AAFA0028F298 /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		C1583D451F00AAFA0028F298 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C1583D461F00AAFA0028F298 /* BYUser.h */,
+				C1583D471F00AAFA0028F298 /* BYUser.m */,
+				C1583D481F00AAFA0028F298 /* BYUserManager.h */,
+				C1583D491F00AAFA0028F298 /* BYUserManager.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		C1583D4D1F00AB420028F298 /* BJPick */ = {
+			isa = PBXGroup;
+			children = (
+				C1583D4E1F00AB420028F298 /* MyPickView.h */,
+				C1583D4F1F00AB420028F298 /* MyPickView.m */,
+			);
+			path = BJPick;
+			sourceTree = "<group>";
+		};
+		C1583D511F00ABD60028F298 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				C1583D521F00ABD60028F298 /* BaseViewController.h */,
+				C1583D531F00ABD60028F298 /* BaseViewController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -983,7 +1035,6 @@
 				C10D0AE31EFD15C9000377FE /* LYYTextField.m in Sources */,
 				C10D0AD21EFD15C9000377FE /* UIViewController+Extension.m in Sources */,
 				C10D0AE41EFD15C9000377FE /* JKCountDownButton.m in Sources */,
-				C10D09AA1EFD08F2000377FE /* BaseViewController.m in Sources */,
 				C10D0AD11EFD15C9000377FE /* UIView+Extension.m in Sources */,
 				C10D0AD61EFD15C9000377FE /* GCDGroup.m in Sources */,
 				C10D0AC61EFD15C9000377FE /* NSData+Extension.m in Sources */,
@@ -1012,17 +1063,22 @@
 				C10D0AE81EFD15C9000377FE /* UIView+Ext.m in Sources */,
 				C10D0ADB1EFD15C9000377FE /* GTMBase64.m in Sources */,
 				C10D09521EFD05FE000377FE /* AFRequest.m in Sources */,
+				C1583D4C1F00AAFA0028F298 /* BYUserManager.m in Sources */,
 				C10D098B1EFD0621000377FE /* ViewController.m in Sources */,
 				C10D0ACA1EFD15C9000377FE /* NSString+Extension.m in Sources */,
 				C10D0AC71EFD15C9000377FE /* NSDate+Extension.m in Sources */,
 				C10D0ACB1EFD15C9000377FE /* UIBarButtonItem+Extension.m in Sources */,
 				C10D0AE01EFD15C9000377FE /* LoginButton.m in Sources */,
+				C1583D501F00AB420028F298 /* MyPickView.m in Sources */,
 				C10D0ADE1EFD15C9000377FE /* CWStarRateView.m in Sources */,
+				C1583D4A1F00AAFA0028F298 /* BaseModel.m in Sources */,
 				C10D0ADA1EFD15C9000377FE /* GestureImageView.m in Sources */,
 				C10D0AE91EFD15C9000377FE /* SelectView.m in Sources */,
 				C10D0ADD1EFD15C9000377FE /* SecurityUtil.m in Sources */,
+				C1583D4B1F00AAFA0028F298 /* BYUser.m in Sources */,
 				C10D0AE61EFD15C9000377FE /* MultiImageView.m in Sources */,
 				C10D0AD91EFD15C9000377FE /* GCDTimer.m in Sources */,
+				C1583D541F00ABD60028F298 /* BaseViewController.m in Sources */,
 				C10D09961EFD0779000377FE /* BYTabbarController.m in Sources */,
 				C10D0ACD1EFD15C9000377FE /* UIImage+Extension.m in Sources */,
 				C10D0B031EFD166F000377FE /* MyViewController.m in Sources */,
